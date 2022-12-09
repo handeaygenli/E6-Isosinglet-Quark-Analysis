@@ -2,7 +2,7 @@
 
 In this study, a C language implementation of CompHep infrastructure was used to analyse the E6 Isosinglet Quark. Kinematic distributions of jets, W boson and Z boson were studied. (p1p1->ZjWj1j1). This study requires the addition of E6 model files to the Comphep infrastructure. First of all, the files (txt file) produced in CompHep were converted to "lhe" format. This "lhe" file, which was also created with the ExRootLHEFConverter command, was converted to "ROOT" format.
 
-Using the command LHEF->MakeClass("EAnalysisAnalysis"), the C and Header file of the ROOT file were created. To perform the analysis, the following commands are applied after the desired analysis codes are written in the C file.
+Using the command LHEF->MakeClass("EAnalysis"), the C and Header file of the ROOT file were created. To perform the analysis, the following commands are applied after the desired analysis codes are written in the C file.
 
 .L ZtoEeAnalysis.C
 
